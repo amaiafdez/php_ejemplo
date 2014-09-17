@@ -1,21 +1,16 @@
 <html>
 <body>
 	<?php 
-    	echo $_GET["numero"];
-    	#for ($i=0; $i < $num; $i++) { 
-    		
-    	#}
+		$num = (integer) $_GET["numero"];
+    	echo $num;
+    	'<table>'
+
+	    	for ($i=0; $i < num; $i++) { 
+	    		'<tr>
+	    			<td>' . i . '</td>
+	    		</tr>'
+	    	}
+	    '</table>'
      ?>
-	
-
-	<table>
-		<tr>
-			<td>
-				
-			</td>
-		</tr>
-	</table>
-    
-
 </body>
 </html>
